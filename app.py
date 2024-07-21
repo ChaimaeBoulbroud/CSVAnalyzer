@@ -57,6 +57,7 @@ def get_columns_and_filters(folder_path):
     # iterate for each CSV file
     for file in files:
         try:
+            #hhdvbfhjdsgqc
             # read the CSV file into a dataframe
             df = pd.read_csv(file)
 
